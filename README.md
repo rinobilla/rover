@@ -57,37 +57,37 @@ verso OVEST oltre 0 setta x a xMax
 verso SUD olre yMax setta y a 0
 verso NORS oltre 0 setta y a yMax
 
-### controllo dei sensori
+###controllo dei sensori
 Il controllo dei sensori e semplicemente simulando con un valore random in un range da 1 a 10 che da la possibilità che nella griglia di posizioni ci sia una probabilità del 10% di trovare un ostacolo nel percorso.
 
 
 
-## TODO
-Init dei comandi da API.
-Il comando non è tra quelli previsti.
-Reset generale.
-Feedback dei sensori sul funzionamento.
-Feedback attuatori movimento,
+##TODO  
+Init dei comandi da API.  
+Il comando non è tra quelli previsti.  
+Reset generale.  
+Feedback dei sensori sul funzionamento.  
+Feedback attuatori movimento.  
 
-#Casi limite
-Non sono stati implementati i casi in cui :
-La lista di comandi è troppo lunga.
-Eccezzione generica.
+#Casi limite  
+Non sono stati implementati i casi in cui :  
+La lista di comandi è troppo lunga.  
+Eccezzione generica.  
 
 
-#Test
+#Test  
 Meglio se il codice fosse stato implementato seguendo dei TDD Test.driven Development.
 
 
-#Soluzioni alternative
-Le possibilità implementative per la movimentazione di un rover sono infinite e ce ne sono sicuramente migliori. I comandi come array di caratteri suggeriva la possibilità di utilizzare ad esempio
-F4B6R23L15
-che poteva essere implementata con uno split dei singoli comandi
-F4 muovere in avanti di 4 posizioni
-B6 muovere indietro di 6 posizioni
-R23 ruotare a destra di 23 gradi
-L15 Ruotare a sinistra di 15 gradi.
-Tale soluzione avrebbe necessita di una gestione più articolata del calcolo della posizione finale con coordinate non intere e con superamento dei limiti di griglia anch'esso più articolato.
+#Soluzioni alternative  
+Le possibilità implementative per la movimentazione di un rover sono infinite e ce ne sono sicuramente migliori. I comandi come array di caratteri suggeriva la possibilità di utilizzare ad esempio:  
+F4B6R23L15  
+che poteva essere implementata con uno split dei singoli comandi  
+F4 muovere in avanti di 4 posizioni    
+B6 muovere indietro di 6 posizioni  
+R23 ruotare a destra di 23 gradi  
+L15 Ruotare a sinistra di 15 gradi.  
+Tale soluzione avrebbe necessita di una gestione più articolata del calcolo della posizione finale con coordinate non intere e con superamento dei limiti di griglia anch'esso più articolato.  
 
 
 
