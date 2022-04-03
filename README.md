@@ -16,8 +16,8 @@ Requirements
 
 # Soluzione
 
-WebApi ASP.NET Core
-una api con un unico endpoint  POST Set per mandare nel body della request una stringa commandi
+La soluzione prevista usa WebApi ASP.NET Core ed implementa
+una api con un unico endpoint POST Set per mandare al rover una stringa commandi tramite il body JSON della request.
 
 _POST Set</br>
 { "commands":"FFLBFFLBFFLBFFLB"}_
