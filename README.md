@@ -38,10 +38,10 @@ CommandsService  ha una dependency injection per loggare tramite Ilogger. Attual
 
 ###comandi
 Ho pensato ad una soluzione la cui stringa di comandi fosse la più semplice possibile.I comandi nella stringa possono essere solo quattro:
-F per muoversi avanti di 1 posizione
-B per muoversi indietro di 1 posizione
-L per ruotare a Sinistra
-R per ruotare a destra
+F per muoversi avanti di 1 posizione  
+B per muoversi indietro di 1 posizione  
+L per ruotare a Sinistra  
+R per ruotare a destra  
 
 ### inizializzazione comandi
 Il set dei comandi è inizializzato con una posizione iniziale x0,y0 ed un limite di percorrenza del rover  xMax, yMax. la griglia delle posizioni è un rettangolo 0,0 xMax, yMax.
@@ -71,8 +71,8 @@ Feedback attuatori movimento.
 
 #Casi limite  
 Non sono stati implementati i casi in cui :  
-La lista di comandi è troppo lunga.  
-Eccezzione generica.  
+La lista di comandi è troppo lunga  
+Eccezzione generica. 
 
 
 #Test  
